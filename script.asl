@@ -356,7 +356,7 @@ split {
   // check splitting on star grab conditions
   if (vars.numberInSplit >= 0) { // there is a number in the current split
     if (settings[vars.settings.SPLIT_ON_TOTAL_STARS] && !settings[vars.settings.ENABLE_STAGE_RTA_MODE]) { // splitting on total stars
-      if (current.stars != old.stars) {
+      if (current.stars != old.stars && current.time != 0) {
         addSplitCondition(current.stars >= vars.numberInSplit);
       }
     } else { // not splitting on total stars
