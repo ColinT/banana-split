@@ -174,7 +174,7 @@ startup {
   // #region regexes
   vars.regexes = new ExpandoObject();
 
-  vars.regexes.REGEX_RESET = new System.Text.RegularExpressions.Regex(@"\breset\b");
+  vars.regexes.REGEX_RESET = new System.Text.RegularExpressions.Regex(@"(?i)\breset\b");
   // #endregion regexes
 
   vars.isSplittingOnLevelChange = false;
