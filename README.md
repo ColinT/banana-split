@@ -1,7 +1,7 @@
 # Banana Split
 A SM64 and Rom Hack autosplitter for LiveSplit.
 
-Version 1.1.0.
+Version 1.1.1.
 
 # 1. Introduction
 Original concept and base work by [Bored Banana](https://twitch.tv/bored_banana).
